@@ -127,9 +127,11 @@ ol > li > ul > li{
 	background-color:#3f2f2f;
 	position:relative;
 	z-index:100;
-	border-left:1px solid  #2f1f1f;
-	border-right:1px solid  #2f1f1f;
-	border-bottom:1px solid  #2f1f1f;
+	border:1px solid  #2f1f1f;
+	border-top:0;
+}
+ol > li > ul > li:first-child{
+	border-top:1px solid  #2f1f1f;
 }
 ol > li > ul > li:hover{
 	background-color:#4f3f3f;
