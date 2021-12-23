@@ -88,10 +88,6 @@ ol{
 	height:30px;
 	line-height:200%;
 	display: inline-block;
-	border: 1px solid #2f1f1f;
-}
-ol:hover{
-	border: 2px solid #2f1f1f;
 }
 ol a{
 	color:#ffffff;
@@ -104,11 +100,12 @@ ol > li{
 	width:200px;
 	height:40px;
 	background-color:#3f2f2f;
+	border: 1px solid #2f1f1f;
 }
 
 ol > li:hover{
 	background-color:#3f2f2f;
-	border:1px solid #2f1f1f;
+	border:2px solid #2f1f1f;
 }
 ol > li:hover > ul{
 	display:block;
