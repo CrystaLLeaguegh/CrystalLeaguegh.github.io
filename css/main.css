@@ -4,6 +4,9 @@ body{
 	font-family:'Saira Extra Condensed',sans-serif;
 	color:#dfdfdf;
 }
+h1{
+	margin:0;
+}
 a{
 	text-decoration:0;
 	display:block;
@@ -36,7 +39,7 @@ header{
 #menu>span a:hover{
 	color:#afafaf;
 }
-.feeler{
+.filler{
 	width:96%;
 	color:#000;
 	display:inline-block;
@@ -48,14 +51,22 @@ header{
 }
 header>h1{
 	display:inline-block;
-	margin:auto;
+	margin:0.1vw 0 0 0;
 	padding:0.5vw;
 	float:left;
 	font-size:3.4vw;
+	text-align:center;
+}
+#logo{
+	display:inline-block;
+	float:left;
+	width:30%;
 }
 /*LIST*/
 nav{
-	margin:0.8vw;
+	margin:1vw;
+	text-align:center;
+	float:center;
 }
 nav a{
 	margin:0.5vw 1.5vw;
@@ -114,6 +125,7 @@ aside{
 	padding:1vw;
 	background-color:#202020;
 	box-shadow:0vw 0vw 0.8vw -0.1vw #101010;
+	display:none;
 }
 aside>iframe{
 	width:20vw;
@@ -122,17 +134,19 @@ aside>iframe{
 }
 main{
 	text-align:justify;
-	margin:5vw 0vw 0vw 4vw;
+	margin:5vw 20% 0 20%;
 	padding:3vw;
 	font-size:20px;
 	background-color:#202020;
 	box-shadow:0vw 0vw 0.8vw -0.1vw #101010;
-	width:65%;
 }
 .discord{
-	height:1vw;
-	width:1vw;
+	height:3vw;
+	width:3vw;
 	position:fixed;
 	z-index:100;
 	box-shadow: 0vw 0vw 1vw 0vw #000;
+	bottom:2vw;
+	left:1vw;
+	border-radius:50%;
 }
