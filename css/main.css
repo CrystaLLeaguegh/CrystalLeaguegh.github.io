@@ -1,0 +1,117 @@
+body{
+	margin:0;
+	background-color:#181818;
+	font-family:'Saira Extra Condensed',sans-serif;
+	color:#dfdfdf;
+}
+a{
+	text-decoration:0;
+	display:block;
+	color:#dfdfdf;
+	padding:0;
+}
+header{
+	background-color:#262626;
+	box-shadow: 0vw 0vw 1vw 0vw #000;
+	height:8vw;
+	font-size:2vw;
+	position:fixed;
+	z-index:100;
+	width:100%;
+	text-align:center;
+	top:0;
+	color:#cfcfcf;
+	
+}
+#menu{
+	background-color:#000;
+	padding:0 0.5% 0 0.5%;
+	z-index:100;
+	font-size:0.8vw!important;
+}
+#menu>span{
+	display:inline-block;
+	margin:0 0.4vw;
+}
+#menu>span a:hover{
+	color:#afafaf;
+}
+.feeler{
+	width:96%;
+	color:#000;
+	display:inline-block;
+}
+.logo{
+	height:6vw;
+	float:left;
+	margin:0 1% 1% 1%;
+}
+header>h1{
+	display:inline-block;
+	margin:auto;
+	padding:0.5vw;
+	float:left;
+	font-size:3.4vw;
+}
+/*LIST*/
+nav{
+	margin:0.8vw;
+}
+nav a{
+	margin:0.5vw 1.5vw;
+}
+nav>ol{
+	margin:0.8% 0;
+	padding:0;
+	list-style-type:none;
+	display:inline-block;
+	font-size:1.5vw;
+	height:3.5vw;
+}
+nav>ol>li{
+	float:left;
+	margin:0 0.4vw;
+}
+nav>ol>li:first-child{
+	float:left;
+	margin:0 0.1vw;
+}
+nav>ol>li:last-child{
+	float:left;
+	margin:0 0.1vw;
+}
+
+nav>ol a{
+	display:block;
+}
+nav>ol > li:hover{
+	background-color:#202020;
+	border-radius:5%;
+	border:0.1vw solid #303030;
+	margin:0;
+	box-shadow: 0vw 0vw 0.5vw -0.1vw #000;
+}
+nav>ol>li a:hover{
+	color:#E51A00;
+}
+nav>ol > li:hover > ul{	
+	display:block;
+	width:100%;
+}
+nav>ol>li>ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display:none;
+}
+nav>ol>li>ul>li{
+	border-top:0.1vw solid #262626;
+}
+main{
+	text-align:justify;
+	margin:5vw 6vw 0vw 6vw;
+	padding:3vw;
+	font-size:1.2vw;
+	background-color:#202020;
+	box-shadow:0vw 0vw 0.8vw -0.1vw #101010;
+}
