@@ -107,11 +107,25 @@ nav>ol>li>ul{
 nav>ol>li>ul>li{
 	border-top:0.1vw solid #262626;
 }
-main{
-	text-align:justify;
-	margin:5vw 6vw 0vw 6vw;
-	padding:3vw;
-	font-size:1.2vw;
+aside{
+	margin:3vw 0.4vw 0 0.4vw;
+	float:right;
+	width:20%;
+	padding:1vw;
 	background-color:#202020;
 	box-shadow:0vw 0vw 0.8vw -0.1vw #101010;
+}
+aside>iframe{
+	width:20vw;
+	height:30vw;
+	padding:0;
+}
+main{
+	text-align:justify;
+	margin:5vw 0vw 0vw 6vw;
+	padding:3vw;
+	font-size:20px;
+	background-color:#202020;
+	box-shadow:0vw 0vw 0.8vw -0.1vw #101010;
+	width:65%;
 }
