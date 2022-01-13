@@ -129,3 +129,8 @@ main{
 	box-shadow:0vw 0vw 0.8vw -0.1vw #101010;
 	width:65%;
 }
+.discord{
+	height:1vw;
+	width:1vw;
+	position:fixed;
+}
