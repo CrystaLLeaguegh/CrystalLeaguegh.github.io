@@ -133,4 +133,6 @@ main{
 	height:1vw;
 	width:1vw;
 	position:fixed;
+	z-index:100;
+	box-shadow: 0vw 0vw 1vw 0vw #000;
 }
