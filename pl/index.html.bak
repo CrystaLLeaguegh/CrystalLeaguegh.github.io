@@ -30,7 +30,7 @@
 				</nav>
 		</header>
 		<main>
-			<div class="twitter"><iframe class="twitter-widget" src="https://widget.tagembed.com/22755?view"></iframe>  </div>
+			<div class="twitter"><iframe src="https://widget.tagembed.com/22755?view"></iframe>  </div>
 			<aside>
 				<a href="https://www.youtube.com/channel/UCL61to3-8b6ZFBDeleqL0ZA" target="_blank"><div id="button-social" class="button-yt"><i class="youtube-1-icon"></i></div></a>
 				<a href="https://twitter.com/Crystal_League_" target="_blank"><div id="button-social" class="button-twitter"><i class="twitter-icon"></i></div></a>
