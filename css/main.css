@@ -82,6 +82,7 @@ nav>ol > li:hover > ul{
 	width:100%;
 }
 nav>ol>li>ul{
+	display:none;
 	list-style-type:none;
 	padding:0;
 	margin:0;
