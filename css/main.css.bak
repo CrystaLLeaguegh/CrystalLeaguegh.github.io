@@ -7,16 +7,8 @@ body{
 	font-family: 'Audiowide', cursive;
 	font-family: 'Open Sans', sans-serif;
 	background: rgb(0,0,0);
-	background: linear-gradient(0deg, rgba(0,0,0,1) 60%, rgba(148,0,0,1) 100%);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 90%, rgba(148,0,0,1) 100%);
 	color:#fff;
-}
-iframe{
-	height:100%;
-	width:100%;
-	border:0;
-	background:none;
-	overflow-x: hidden!important;
-	overflow-y: hidden!important;
 }
 a{
 	color:#fff;
@@ -40,7 +32,6 @@ header{
 }
 .logo-txt{
 	float:left;
-	margin:1.3vw 0;
 	font-size:2vw;
 }
 /*LIST*/
@@ -49,7 +40,6 @@ nav{
 	float:center;
 	width:64vw;
 	text-align:center;
-	height:5.4vw;
 }
 nav a{
 	padding:0.4vw 1vw;
@@ -82,7 +72,6 @@ nav>ol > li:hover > ul{
 	width:100%;
 }
 nav>ol>li>ul{
-	display:none;
 	list-style-type:none;
 	padding:0;
 	margin:0;
@@ -100,9 +89,8 @@ nav>ol>li>ul>li:first-child{
 /*MAIN*/
 main{
 	margin:auto;
-	margin-top:6vw;
+	margin-top:5vw;
 	width:1300px;
-	float:center;
 }
 .twitter{
 	width:800px;
@@ -111,7 +99,7 @@ main{
 }
 .twitter-widget{
 	width:100%;
-	height:6300;
+	height:650%;
 	border:0;
 }
 aside{
@@ -120,7 +108,6 @@ aside{
 	background-color:#000;
 	margin:3.9% 0 0 3.3%;
 	float:left;
-	box-shadow: 0px 0px 0.5vw 0px rgba(0, 0, 0, 1);
 }
 #button-social{
 	border:1px solid #1e0000;
@@ -149,55 +136,7 @@ aside{
 }
 footer{
 	background-color:#040404;
-	color:#1f1f1f;
+	color:#0f0f0f;
 	text-align:center;
 	padding:3vw;
-	z-index:200;
-	position:relative;
-	margin-top:1vw;
-}
-.terminarz{
-	width:910px;
-	height:1533px;
-	margin:3.3%;
-	border:1px solid #101010;
-	margin:auto;
-	float:center;
-	z-index:1;
-	position:relative;
-}
-.terminarz>iframe{
-	height:100%;
-	width:100%;
-	z-index:2;
-	position:relative;
-	top:0;
-}
-.censure{
-	position:relative;
-	z-index:90;
-	box-shadow: inset 0px -5px 0px 16px rgba(0, 0, 0, 1);
-	height:100%;
-	width:910px;
-	margin-top:-1533px;
-}
-.tabela{
-	width:910px;
-	height:818px;
-	margin:3.3%;
-	border:1px solid #101010;
-	margin:auto;
-	float:center;
-	z-index:1;
-	position:relative;
-}
-.tabela>iframe{
-	height:100%;
-	width:100%;
-	z-index:2;
-	position:relative;
-	top:0;
-}
-#twitch-embed{
-	height:225px;
 }
