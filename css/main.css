@@ -165,6 +165,7 @@ footer{
 	float:center;
 	z-index:1;
 	position:relative;
+	box-shadow: 0px 0px 0.5vw 0px rgba(0, 0, 0, 1);
 }
 .terminarz>iframe{
 	height:100%;
