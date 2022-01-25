@@ -21,6 +21,7 @@ iframe{
 a{
 	color:#fff;
 	text-decoration:0;
+	display:block;
 }
 /*HEADER*/
 header{
@@ -253,13 +254,12 @@ footer{
 }
 .team-icon{
 	height:40px;
+	width:40px;
 	display:inline-block;
 	float:left;
+	margin-right:30px;
 }
 .teamy ul>li a{
-	
-	margin-top:20px;
-	margin-left:20px;
 }
 .scroll{
 	height:4vw;
