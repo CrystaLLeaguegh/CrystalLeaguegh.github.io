@@ -234,8 +234,8 @@ footer{
 	position:relative;
 	box-shadow: 0px 0px 0.5vw 0px rgba(0, 0, 0, 1);
 }
-.teamy>div{
-	height:369px;
+.teamy-display{
+	height:440px;
 }
 .teamy>iframe{
 	height:100%;
